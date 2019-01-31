@@ -57,6 +57,11 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
+
+        <H1>My Title</H1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa, voluptas at hic quos obcaecati recusandae accusamus nemo doloribus possimus mollitia aliquam quam saepe. Praesentium excepturi nostrum voluptatem explicabo cum.
+        </p>
         <div id={'map'} style={{width: '100%', height: 400}}/>
       </Layout>
     )
