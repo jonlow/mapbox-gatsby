@@ -58,7 +58,7 @@ class IndexPage extends React.Component {
     return (
       <Layout>
 
-        <H1>My Title</H1>
+        <h1>My Title</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa, voluptas at hic quos obcaecati recusandae accusamus nemo doloribus possimus mollitia aliquam quam saepe. Praesentium excepturi nostrum voluptatem explicabo cum.
         </p>
