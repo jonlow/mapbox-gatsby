@@ -42,7 +42,11 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-
+        <Helmet>
+          <link rel="dns-prefetch" href="//api.tiles.mapbox.com/" />
+          <link rel="dns-prefetch" href="//api.mapbox.com" />
+          <link rel="dns-prefetch" href="//events.mapbox.com" />
+        </Helmet>
         <LoadExternalScript
               src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js"
               id="example"
