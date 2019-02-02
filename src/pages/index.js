@@ -43,10 +43,6 @@ class IndexPage extends React.Component {
     return (
       <Layout>
 
-        <Helmet>
-          <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
-        </Helmet>
-
         <LoadExternalScript
               src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js"
               id="example"
