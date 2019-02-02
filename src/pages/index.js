@@ -50,7 +50,7 @@ class IndexPage extends React.Component {
   }
 
   componentDidMount() {
-    mapboxgl.accessToken ='pk.eyJ1IjoibGlwaXN3aXJlIiwiYSI6ImNqa2JmYzQxazB3dngza3BkajVlY2FnMzkifQ.tHrRXd2rw3zorHY3YqUhBA'
+    mapboxgl.accessToken ='pk.eyJ1Ijoiam9ubG93IiwiYSI6ImNqcmlqcmJyNTAybWw0NHJ2c3RnMms2M2QifQ.uz4EWe8I6iW4l64hxyRvDQ'
     this.createMap()
   }
 
