@@ -46,6 +46,9 @@ class IndexPage extends React.Component {
           <link rel="dns-prefetch" href="//api.tiles.mapbox.com/" />
           <link rel="dns-prefetch" href="//api.mapbox.com" />
           <link rel="dns-prefetch" href="//events.mapbox.com" />
+          <link rel="preconnect" href="//api.tiles.mapbox.com/" />
+          <link rel="preconnect" href="//api.mapbox.com" />
+          <link rel="preconnect" href="//events.mapbox.com" />
         </Helmet>
         <LoadExternalScript
               src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js"
