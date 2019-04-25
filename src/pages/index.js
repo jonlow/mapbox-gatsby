@@ -16,7 +16,7 @@ class IndexPage extends React.Component {
     const map = new mapboxgl.Map({
       center: coordinates,
       container: 'map',
-      style: 'mapbox://styles/jonlow/cjrilx4w69gam2srvplzqbu9g',
+      style: 'mapbox://styles/visitballarat/cjt9mdyxm0e2c1flbsuepc4xh',
       zoom: zoom,
     })
 
@@ -51,7 +51,7 @@ class IndexPage extends React.Component {
           <link rel="preconnect" href="//events.mapbox.com" />
         </Helmet>
         <LoadExternalScript
-              src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js"
+              src="http://cdn.visitballarat.com.au/mapbox-gl.js"
               id="example"
               onLoad={() => this.createMap()}
          />
