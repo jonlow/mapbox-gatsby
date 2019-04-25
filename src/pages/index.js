@@ -51,7 +51,7 @@ class IndexPage extends React.Component {
           <link rel="preconnect" href="//events.mapbox.com" />
         </Helmet>
         <LoadExternalScript
-              src="https://cdn.visitballarat.com.au/mapbox-gl.js"
+              src="https://static-assets.mapbox.com/gl-pricing/dist/mapbox-gl.js"
               id="example"
               onLoad={() => this.createMap()}
          />
