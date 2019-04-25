@@ -1,7 +1,6 @@
 /* global mapboxgl */
 
 import Layout from '../components/layout'
-import '../styles/mapbox.css'
 import React from 'react'
 import stores from '../data/stores'
 import Helmet from 'react-helmet'
@@ -46,9 +45,12 @@ class IndexPage extends React.Component {
           <link rel="dns-prefetch" href="//api.tiles.mapbox.com/" />
           <link rel="dns-prefetch" href="//api.mapbox.com" />
           <link rel="dns-prefetch" href="//events.mapbox.com" />
+          <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
           <link rel="preconnect" href="//api.tiles.mapbox.com/" />
           <link rel="preconnect" href="//api.mapbox.com" />
           <link rel="preconnect" href="//events.mapbox.com" />
+          <link rel="preconnect" href="//cdnjs.cloudflare.com" />
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/0.53.1/mapbox-gl.css" />
         </Helmet>
         <LoadExternalScript
               src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/0.53.1/mapbox-gl.js"
