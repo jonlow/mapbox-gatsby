@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import React from 'react'
 import stores from '../data/stores'
 import Helmet from 'react-helmet'
+import '../styles/mapbox.css'
 import LoadExternalScript from '../components/LoadExternalScript'
 
 class IndexPage extends React.Component {
@@ -50,7 +51,6 @@ class IndexPage extends React.Component {
           <link rel="preconnect" href="//api.mapbox.com" />
           <link rel="preconnect" href="//events.mapbox.com" />
           <link rel="preconnect" href="//cdnjs.cloudflare.com" />
-          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/0.53.1/mapbox-gl.css" />
         </Helmet>
         <LoadExternalScript
               src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/0.53.1/mapbox-gl.js"
